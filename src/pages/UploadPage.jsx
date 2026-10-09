@@ -72,7 +72,7 @@ export default function UploadPage() {
       <section className="card">
         <h1>Upload pricing feed</h1>
         <p className="muted">
-          CSV with columns <code>Store ID, SKU, Product Name, Price, Date</code> (optional <code>Currency</code>). Dates use{' '}
+          CSV with columns <code>Store ID, SKU, Product Name, Price, Date</code> and optional <code>Currency</code>. Dates use{' '}
           <code>YYYY-MM-DD</code>. Rows with the same Store ID, SKU and Date replace the existing price.{' '}
           <a href="/sample-prices.csv" download>
             Download sample
